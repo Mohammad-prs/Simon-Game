@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 var colors = ["green" , "red" , "blue" , "yellow"] ;
 var gamePattern = [] ;
 var usersClickedPattern = [];
@@ -85,8 +84,6 @@ function animatePressed (currentColor) {
 
 
 
-
-=======
 var colors = ["green" , "red" , "blue" , "yellow"] ;
 var gamePattern = [] ;
 var usersClickedPattern = [];
@@ -173,5 +170,3 @@ function animatePressed (currentColor) {
 
 
 
-
->>>>>>> b259c679a9d42df631c82b5ff70e585dd5e024d6

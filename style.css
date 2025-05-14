@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 * {
     user-select: none;
 }
@@ -55,7 +55,7 @@ body {
 .game-over {
   background-color: red;
   opacity: 0.8;
-=======
+}
 body {
     text-align: center;
     background-color: #011F3F;
@@ -108,5 +108,4 @@ body {
 .game-over {
   background-color: red;
   opacity: 0.8;
->>>>>>> b259c679a9d42df631c82b5ff70e585dd5e024d6
 }
