@@ -27,17 +27,16 @@ html, body {
     display: block;
     width: 50%;
     margin: auto;
-    margin-top: -20px ;
+    margin-top: -20px;
 }
 
 .btn {
     display: inline-block;
-    width: 200px;
-    height: 200px;
-    border: 10px solid black;
+    width: 250px;
+    height: 250px;
+    border: 12.5px solid black;
     border-radius: 15%;
     margin: 25px;
-    margin-top: 10px;
 }
 
 .red { background-color: red; }
@@ -55,7 +54,6 @@ html, body {
     opacity: 0.8;
 }
 
-/* 👇 New Buttons Styling */
 .top-buttons {
     position: absolute;
     top: 20px;
@@ -66,16 +64,19 @@ html, body {
     font-family: 'Press Start 2P', cursive;
     background-color: #FEF2BF;
     border: 3px solid black;
-    padding: 10px 15px;
+    padding: 15px 25px;
     margin: 5px;
     cursor: pointer;
-    font-size: 10px;
+    font-size: 14px;
 }
 
 #start-btn:hover,
 #restart-btn:hover {
     background-color: #ffeb80;
 }
+
+
+
 
 
 @media (max-width: 600px) {
