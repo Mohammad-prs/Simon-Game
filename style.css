@@ -1,4 +1,3 @@
-
 * {
     user-select: none;
 }
@@ -6,7 +5,16 @@
 body {
     text-align: center;
     background-color: #011F3F;
+    
 }
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+}
+
 
 #level-title {
     font-size: 3rem;
@@ -19,6 +27,7 @@ body {
     display: block;
     width: 50%;
     margin: auto;
+    margin-top: -20px ;
 }
 
 .btn {
@@ -28,31 +37,78 @@ body {
     border: 10px solid black;
     border-radius: 15%;
     margin: 25px;
-    
+    margin-top: 10px;
 }
 
-.red {
-    background-color: red;
-}
-
-.green {
-    background-color: green;
-}
-
-.blue {
-    background-color: blue;
-}
-
-.yellow {
-    background-color: yellow;
-}
+.red { background-color: red; }
+.green { background-color: green; }
+.blue { background-color: blue; }
+.yellow { background-color: yellow; }
 
 .pressed {
     box-shadow: 0 0 20px white;
     background-color: grey;
-  }
+}
 
 .game-over {
-  background-color: red;
-  opacity: 0.8;
+    background-color: red;
+    opacity: 0.8;
 }
+
+/* 👇 New Buttons Styling */
+.top-buttons {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+#start-btn, #restart-btn {
+    font-family: 'Press Start 2P', cursive;
+    background-color: #FEF2BF;
+    border: 3px solid black;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 10px;
+}
+
+#start-btn:hover,
+#restart-btn:hover {
+    background-color: #ffeb80;
+}
+
+
+@media (max-width: 600px) {
+    .container {
+      width: 90%;
+      margin-top: 10px;
+    }
+  
+    .btn {
+      width: 40vw;
+      height: 40vw;
+      max-width: 150px;
+      max-height: 150px;
+      margin: 8px;
+    }
+  
+    .top-buttons {
+      position: static; /* remove absolute positioning */
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+  
+    #start-btn,
+    #restart-btn {
+      font-size: 10px;
+      padding: 6px 10px;
+      margin: 0 5px;
+    }
+  
+    #level-title {
+      font-size: 5vw;
+      margin-top: 20px; /* push it below the buttons */
+    }
+  }
+  
