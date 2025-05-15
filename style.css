@@ -77,7 +77,7 @@ html, body {
 
 
 
-
+/* Responsiveness for Mobile*/
 
 @media (max-width: 600px) {
     .container {
@@ -94,7 +94,7 @@ html, body {
     }
   
     .top-buttons {
-      position: static; /* remove absolute positioning */
+      position: static;
       display: flex;
       justify-content: center;
       margin-top: 20px;
@@ -109,7 +109,7 @@ html, body {
   
     #level-title {
       font-size: 5vw;
-      margin-top: 20px; /* push it below the buttons */
+      margin-top: 20px; 
     }
   }
   
